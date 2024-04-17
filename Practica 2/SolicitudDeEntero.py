@@ -11,8 +11,6 @@ print ("El numero ingresado fue: " )
 print(entero)
 
 
--------------------------------------------------------------------------------------------------------
-
 # Si desglosamos la funcion, vemos el input al cual le pasamos como parametro un String
 # esto es como si pusieramos un print("ingrese un entero"), pero ademas selecciona un espacio en memoria 
 # para el ingreso de un dato, y lo guarda en la variable numero.
@@ -22,5 +20,3 @@ numero = int(input("Ingrese un numero entero: "))
 
 print("El numero ingresado es: " + str(numero))
 # Aca vemos que hay un casteo nuevamente, esto se debe a que no puedo concatenar un int con un String
-
-----------------------------------------------------------------------------------------------------
