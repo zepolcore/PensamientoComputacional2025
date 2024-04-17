@@ -4,3 +4,4 @@ valor = int(input("ingrese un dato"))
 print(type(valor))
 #imprimo el valor
 print(valor)
+
