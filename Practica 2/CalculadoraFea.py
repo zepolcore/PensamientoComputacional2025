@@ -23,5 +23,5 @@ print("el resultado de la multiplicacion es: " + str(multiplicacion))
 division = numero1 / numero2
 print("El resultado de la division es: " + str(int(division)))
 
-resto = numero1 / numero2
+resto = numero1 % numero2
 print("El resultado del resto es: " + str(int(resto)))
